@@ -40,4 +40,4 @@ def generar_dataset(size_dataset=500, archivo="Dataset.csv",seed=42):
     print(f"Dataset generado EXITOSAMENTE en {archivo}")
     return df
 if __name__ == "__main__":
-    generar_dataset(size_dataset=1000, archivo="dataset_sintetico_GBS.csv")
+    generar_dataset(size_dataset=1000, archivo="dataset_sintetico.csv")
